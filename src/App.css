@@ -1,0 +1,84 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+.body {
+  height: 100dvh;
+  width: 100dvw;
+  display: flex;
+  flex-direction: column;
+}
+.learn-btn {
+  -webkit-tap-highlight-color: transparent;
+  height: 45px;
+  width: 110px;
+  font-size: 1rem;
+  font-weight: bolder;
+  border-radius: 25px;
+  color: black;
+  transition: 100ms all ease-in-out;
+  margin-left: 15px;
+  margin-top: 20px;
+}
+.btn-div {
+  display: flex;
+  gap: 10px;
+  padding-inline: 15px;
+  margin-top: 10px;
+  justify-content: space-around;
+}
+.btn-div button {
+  width: 100%;
+  -webkit-tap-highlight-color: transparent;
+  height: 50px;
+  font-size: 1.1rem;
+  font-weight: bolder;
+  transition: 100ms all ease-in-out;
+}
+.btn-div button:active {
+  scale: 90%;
+}
+.health-text {
+  padding-top: 10px;
+  margin-inline: auto;
+  font-size: 1.7rem;
+}
+.learn-btn:active {
+  scale: 90%;
+}
+.control-bar {
+  margin-top: auto;
+  display: flex;
+  width: 100dvw;
+  height: max-content;
+  /* border: 1px solid red; */
+  justify-content: space-around;
+}
+.slider-wrapper {
+  width: max-content;
+  /* border: 1px solid blue; */
+  padding-left: 10px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+.slider-wrapper h2 {
+  width: max-content;
+}
+.slider-wrapper h3 {
+  position: relative;
+  bottom: 190px;
+  font-size: 1.4rem;
+}
+.slider {
+  appearance: slider-vertical;
+  scale: 250%;
+  position: relative;
+  bottom: 100px;
+  /* left: 15px; */
+  width: 40px;
+  height: 110px;
+}
